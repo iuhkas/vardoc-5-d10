@@ -30,11 +30,10 @@
     "composer/installers": "~2.0",
     "oomphinc/composer-installers-extender": "~2.0",
     "cweagans/composer-patches": "~1.0",
-    "drupal/core-composer-scaffold": "^9",
+    "drupal/core-composer-scaffold": "^10",
     "webflo/drupal-finder": "^1",
-    "drupal/core": "~9.0",
     "vardot/entity-definition-update-manager": "~1.0",
-    "vardot/varbase": "~9.0",
+    "vardot/varbase": "~9.1",
     "drupal/varbase_core": "^9.0.53",
     "drupal/varbase_faqs": "~9.0",
     "drupal/fontawesome": "~2.0",
@@ -59,8 +58,8 @@
     "npm-asset/jquery-bar-rating": "~1.0"
   },
   "require-dev": {
-    "drupal/core-dev": "~9.0",
-    "drush/drush": "~11.0",
+    "drupal/core-dev": "~10.0",
+    "drush/drush": "~12.0",
     "drupal/drupal-extension": "~4.0",
     "emuse/behat-html-formatter": "^0.2.0",
     "drevops/behat-screenshot": "~1.0"
