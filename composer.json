@@ -55,11 +55,9 @@
     "drupal/group_notify": "~1.0",
     "drupal/group_taxonomy": "~1.0",
     "drupal/entitygroupfield": "~1.0",
-    "npm-asset/jquery-bar-rating": "~1.0",
-    "drush/drush": "^12"
+    "npm-asset/jquery-bar-rating": "~1.0"
   },
   "require-dev": {
-    "drupal/core-dev": "^10",
     "drupal/drupal-extension": "~5.1",
     "emuse/behat-html-formatter": "^0.2.0",
     "drevops/behat-screenshot": "~1.0"
