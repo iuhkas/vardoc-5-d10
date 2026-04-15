@@ -1,8 +1,8 @@
 type: theme
-base theme: vartheme_bs4
+base theme: vartheme_bs5
 name: 'Vardoc Theme'
 description: 'Based on Bootstrap 4 framework using SASS, and extending Vartheme (Bootstrap 4 - SASS).'
-core_version_requirement: ^9 || ^10
+core_version_requirement: ^9 || ^10 || ^11
 version: 5.0.0-rc1
 
 regions:
@@ -45,29 +45,29 @@ libraries:
   #- vardoc_theme/roboto
 
 libraries-override:
-  vartheme_bs4/framework: false
-  vartheme_bs4/bootstrap-styles: false
-  vartheme_bs4/bootstrap-scripts: false
-  vartheme_bs4/global-styles: false
-  vartheme_bs4/global-scripts: false
-  vartheme_bs4/vbp-colors: false
-  vartheme_bs4/vlb-colors: false
-  vartheme_bs4/betterlogin: false
-  # Heroslider: Uncomment the following to disable the vartheme_bs4/heroslider
-  #             Libraray if it was enabled in vartheme_bs4 heroslider styling.
-  # vartheme_bs4/heroslider: false
+  vartheme_bs5/framework: false
+  vartheme_bs5/bootstrap-styles: false
+  vartheme_bs5/bootstrap-scripts: false
+  vartheme_bs5/global-styles: false
+  vartheme_bs5/global-scripts: false
+  vartheme_bs5/vbp-colors: false
+  vartheme_bs5/vlb-colors: false
+  vartheme_bs5/betterlogin: false
+  # Heroslider: Uncomment the following to disable the vartheme_bs5/heroslider
+  #             Libraray if it was enabled in vartheme_bs5 heroslider styling.
+  # vartheme_bs5/heroslider: false
 
-  vartheme_bs4/breadcrumb: vardoc_theme/breadcrumb
-  vartheme_bs4/dropbutton: vardoc_theme/dropbutton
-  vartheme_bs4/file: vardoc_theme/file
-  vartheme_bs4/form: vardoc_theme/form
-  vartheme_bs4/indented: vardoc_theme/indented
-  vartheme_bs4/maintenance_page: vardoc_theme/maintenance_page
-  vartheme_bs4/node: vardoc_theme/node
-  vartheme_bs4/sidebar-collapse: vardoc_theme/sidebar-collapse
-  vartheme_bs4/tabs: vardoc_theme/tabs
-  vartheme_bs4/verticaltabs: vardoc_theme/verticaltabs
-  vartheme_bs4/alerts: vardoc_theme/alerts
+  vartheme_bs5/breadcrumb: vardoc_theme/breadcrumb
+  vartheme_bs5/dropbutton: vardoc_theme/dropbutton
+  vartheme_bs5/file: vardoc_theme/file
+  vartheme_bs5/form: vardoc_theme/form
+  vartheme_bs5/indented: vardoc_theme/indented
+  vartheme_bs5/maintenance_page: vardoc_theme/maintenance_page
+  vartheme_bs5/node: vardoc_theme/node
+  vartheme_bs5/sidebar-collapse: vardoc_theme/sidebar-collapse
+  vartheme_bs5/tabs: vardoc_theme/tabs
+  vartheme_bs5/verticaltabs: vardoc_theme/verticaltabs
+  vartheme_bs5/alerts: vardoc_theme/alerts
 
   # Varbase module compnents overrides in vardoc_theme.
   varbase_bootstrap_paragraphs/vbp-colors: vardoc_theme/vbp-colors
@@ -83,7 +83,7 @@ libraries-override:
 ckeditor_stylesheets:
   # Base
   - css/base/bootstrap.base.css
-  - css/base/vartheme_bs4.base.css
+  - css/base/vartheme_bs5.base.css
   - css/base/vardoc_theme.base.css
   # Components
   - css/components/affix.component.css

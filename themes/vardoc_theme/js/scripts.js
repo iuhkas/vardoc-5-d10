@@ -70,51 +70,57 @@
         }
       });
 
-      $('.bar-icons-wrapper')
-        .once()
+      $(once('bar-icon-click-event', '.bar-icons-wrapper')).each(function () {
+        $(this)
         .on('click', function () {
           $('body header.navbar').toggleClass('expanded-header');
           $('body').toggleClass('body-overflow-hidden');
           $('html').toggleClass('overflow-hidden');
         });
+      });
     },
   };
 
   Drupal.behaviors.booknavigation = {
     attach(context) {
-      $('.block-book-navigation .menu .menu-item span')
-        .once()
+      $(once('menu-click-event', '.block-book-navigation .menu .menu-item span')).each(function () {
+        $(this)
         .on('click', function () {
           $(this).parent().children('ul').slideToggle('500');
           $(this).parent().toggleClass('open');
         });
+      });
       if ($(window).width() > 1024) {
-        $('.navbar-nav .nav-item.dropdown .dropdown-toggle')
-          .once()
+        $(once('dropdown-hover-event', '.navbar-nav .nav-item.dropdown .dropdown-toggle')).each(function () {
+          $(this)
           .hover(function () {
             $(this)
               .parents('.nav-item.dropdown')
               .find('.dropdown-menu')
               .toggleClass('show');
           });
-        $('.navbar-nav .nav-item.dropdown ul.dropdown-menu')
-          .once()
+        });
+        $(once('dropdown-menu-event', '.navbar-nav .nav-item.dropdown ul.dropdown-menu')).each(function () {
+          $(this)
           .hover(function () {
             $(this)
               .parents('.nav-item.dropdown')
               .find('.dropdown-menu')
               .toggleClass('show');
           });
-        $('.header-avatar')
-          .once()
+        });
+        $(once('avatar-hover-event', '.header-avatar')).each(function () {
+          $(this)
           .hover(function () {
             $('.menu--account').toggleClass('show');
           });
-        $('.menu--account ul')
-          .once()
+        });
+        $(once('menu-hover-event', '.menu--account ul')).each(function () {
+          $(this)
           .hover(function () {
             $('.menu--account').toggleClass('show');
           });
+        });
       }
     },
   };

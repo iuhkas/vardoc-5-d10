@@ -27,7 +27,7 @@ install:
   - block_class
 themes:
   - bootstrap_barrio
-  - vartheme_bs4
+  - vartheme_bs5
   - vardoc_theme
   - claro
   - vartheme_claro

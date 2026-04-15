@@ -378,25 +378,6 @@ template {
 }
 
 h1,
- h2,
- h3,
- h4,
- h5,
- h6,
-.h1,
- .h2,
- .h3,
- .h4,
- .h5,
- .h6 {
-  margin-bottom: 1rem;
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.2;
-  color: #292929;
-}
-
-h1,
  .h1 {
   font-size: 2.5rem;
 }
@@ -16901,4 +16882,8 @@ a.text-light:hover,
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
+}
+
+.block-page-title-block .content {
+  display: inline-block;
 }

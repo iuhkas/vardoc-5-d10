@@ -26,24 +26,24 @@
     "composer/installers": "~2.0",
     "oomphinc/composer-installers-extender": "~2.0",
     "cweagans/composer-patches": "~1.0",
-    "drupal/core-composer-scaffold": "^10",
     "webflo/drupal-finder": "^1",
     "vardot/entity-definition-update-manager": "~1.0",
-    "vardot/varbase": "^10.0",
-    "drupal/varbase_core": "^10.0",
-    "drupal/varbase_faqs": "^10.0",
+    "vardot/varbase": "~10.1",
+    "vardot/varbase-libraries": "~10.1",
+    "vardot/varbase-replaces": "~10.1",
+    "drupal/varbase_core": "~10.1",
+    "drupal/varbase_faqs": "^10.1@alpha",
     "drupal/better_normalizers": "^2.0@beta",
-    "drupal/votingapi": "~3.0",
-    "drupal/votingapi_widgets": "~1.0",
     "drupal/flag": "~4.0",
     "drupal/sharethis": "~3.0",
     "drupal/menu_link_attributes": "~1.5",
     "drupal/svg_image": "~3.2",
     "drupal/search_api_autocomplete": "~1.0",
     "drupal/r4032login": "~2.0",
-    "drupal/group": "~1.0",
-    "drupal/ginvite": "~2.0",
-    "drupal/grequest": "~1.0"
+    "drupal/group": "^3.3",
+    "drupal/ginvite": "^4.0",
+    "drupal/grequest": "^3.2",
+    "drupal/vartheme_bs5": "^4.0"
   },
   "require-dev": {
   },
@@ -115,10 +115,7 @@
       "drupal/core": "-p2"
     },
     "patches": {
-      "drupal/group": {
-        "Issue #3161194: The '' entity type does not exist":
-        "https://www.drupal.org/files/issues/2021-04-08/3161194_the_entity_type_does_not_exist_17_2.patch"
-      }
+
     }
   }
 }
